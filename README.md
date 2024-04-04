@@ -1,13 +1,9 @@
 # react-helmet-async
 
-[![CircleCI](https://circleci.com/gh/staylor/react-helmet-async.svg?style=svg)](https://circleci.com/gh/staylor/react-helmet-async)
+This package is a fork of [React Helmet Async](https://github.com/staylor/react-helmet-async).
+The goal ist to make it work for Next.js 14+.
 
-[Announcement post on Times Open blog](https://open.nytimes.com/the-future-of-meta-tag-management-for-modern-react-development-ec26a7dc9183)
-
-This package is a fork of [React Helmet](https://github.com/nfl/react-helmet).
-`<Helmet>` usage is synonymous, but server and client now requires `<HelmetProvider>` to encapsulate state per request.
-
-`react-helmet` relies on `react-side-effect`, which is not thread-safe. If you are doing anything asynchronous on the server, you need Helmet to encapsulate data on a per-request basis, this package does just that.
+<!-- TODO: Update Readme -->
 
 ## Usage
 
